@@ -1,0 +1,983 @@
+body {
+color: #222;
+font: normal 12px/15px Arial, Sans Serif;
+word-wrap: break-word;
+}
+
+#tumblr_controls {margin: 7px 7px 0 0!important;}
+
+#install {
+position: absolute;
+right: 10px;
+top: 33px;
+}
+
+a#infcredit {bottom: 10px;}
+#backtotop {bottom: 44px;}
+
+a#infcredit, #backtotop a {
+padding: 5px 8px 5px 8px;
+text-align: left;
+}
+
+a#infcredit, #backtotop {
+position: fixed;
+right: 10px;
+}
+
+/* ____________________________ Container */
+
+#container {
+margin: 0 auto;
+width: 905px;
+}
+
+	/* ____________________________ Promo Links */
+
+	#container #promo {
+	display: block;
+	margin: 0 0 11px 0;
+	opacity: 0;
+	}
+
+	/* ____________________________ Header */
+
+	#container #header {text-align: center;}
+		#container #header img {max-width: 905px;}
+
+	/* ____________________________  Icon*/
+
+	#container #icon {
+	background: #f0f0f0;
+	margin-left: -85px;
+	padding: 5px 0 5px 5px;
+	}
+
+		#container #icon img {width: 60px;}
+
+	/* ____________________________  Navigation*/
+
+	#container ul#navigation {
+	display: block;
+	height: 35px;
+	list-style: none;
+	font: normal 14px â€˜Fira Sans Condensedâ€™, sans-serif;
+	font-weight:light;
+	text-transform:uppercase;
+
+	}
+
+	#container ul#navigation li {
+	display: block;
+	float: left;
+	font: normal 14px â€˜Fira Sans Condensedâ€™, sans-serif;
+	font-weight:light;
+	text-transform:uppercase;
+	}
+
+		#container ul#navigation li a {
+		display: block;
+		padding: 8px 10px 8px 10px;
+		font: normal 14px â€˜Fira Sans Condensedâ€™, sans-serif;
+		font-weight:light;
+		text-transform:uppercase;
+		}	
+
+		#container ul#navigation li a:hover, #container #content #sidebar .sidebar_header, #container #content #sidebar a.sidebar_header, #container #content #sidebar .sidebar_post input.submit, #container #content #posts .posts_post .credit a:hover, #container ul#footer li a:hover, #container ul#footer li span {color: #fff;}
+	
+	/* ____________________________ Content */
+
+	#container #content {
+	background: #f0f0f0;
+	padding: 0 20px 20px 20px;
+	}
+
+		#container #content #posts {
+		float: left;
+		margin: 0 20px 0 0;
+		width: 865px;
+		}
+
+		/* ____________________________  Tag, Search, and Day Headers*/
+
+		#container #content #tagsearch {
+		margin: 20px 0 0 0;
+		width: 500px;
+		}
+	
+			#container #content #posts ul, #container #content #posts ol {margin: 10px 0 0 31px;}
+			#container #content #posts .posts_post, #container #content #sidebar .sidebar_post {margin: 20px 0 0 0;}
+
+			.endless, #container #content #posts #tagsearch, #container #content #posts .posts_post .title, #container #content #posts .posts_post .quote, #container #content #posts .posts_post .link a {
+			display: block;
+			font: normal 22px â€˜Fira Sans Condensedâ€™, Sans-Serif;
+			padding: 9px 10px 8px 10px;
+			}
+
+			.endless {
+			margin: 20px 0 0 0;
+			text-align: center;
+			}
+
+				/* ____________________________  Posts*/
+
+				#container #content #posts .posts_post .post_body, #container #content #posts .posts_post .post_bodyy {
+				background: #fff;
+				padding: 1px 15px 11px 15px;
+				}
+		
+					#container #content #posts .posts_post .post_body img, #container #content #posts .posts_post .post_bodyy img {
+					margin: 4px 0 4px 0;
+					max-width: 490px;
+					}
+					
+					#container #content #posts .posts_post .post_body .textdown {margin-bottom: 0;}
+
+				/* ____________________________ Photo Posts */
+
+				#container #content #posts .posts_post .photo_post, #container #content #posts .posts_post .video_post {
+				padding: 10px;
+				position: relative;
+				text-align: center;
+				}
+
+					#container #content #posts .posts_post .photo_post a.zoom {
+					display: block;
+					font: bold 14px â€˜Fira Sans Condensedâ€™, sans-serif;
+					height: 30px;
+					margin: 10px 0 0 10px;
+					opacity: 0;
+					padding: 3px;
+					position: absolute;
+					width: 30px;
+					}
+
+					#container #content #posts .posts_post .photo_post a.camerainfoo {
+					bottom: 20px;
+					display: block;
+					font: normal 22px â€˜Fira Sans Condensedâ€™, sans-serif;
+					opacity: 0;
+					padding: 6px 10px 3px 10px;
+					position: absolute;
+					right: 20px;
+					}
+
+						#container #content #posts .posts_post .photo_post:hover a.zoom, #container #content #posts .posts_post .photo_post:hover a.camerainfoo {opacity: 1!important;}
+
+					/* ____________________________  Chat Posts*/
+
+					#container #content #posts .posts_post .chat {
+					border-bottom: 1px solid #f8f8f8;
+					display: block;
+					margin: 14px 0 15px 0;
+					}
+
+						#container #content #posts .posts_post .chat .odd, #container #content #posts .posts_post .chat .even {padding: 5px 8px 5px 8px;}
+
+						#container #content #posts .posts_post .chat .odd {
+						background: #f8f8f8;
+						color: #222;
+						}
+
+					/* ____________________________ Audio Posts */
+
+					#container #content #posts .posts_post .music_player {
+					display: block;
+					height: 158px;
+					position: relative;
+					width: 520px;
+					}
+
+						#container #content #posts .posts_post .music_player .audioplayerbackground {
+						display: block;
+						left: 58px;
+						position: absolute;
+						top: 59px;
+						z-index: 9;
+						}
+
+						#container #content #posts .posts_post .music_player .artwork {
+						background: #f0f0f0;
+						display: block;
+						height: 138px;
+						left: 10px;
+						position: absolute;
+						top: 10px;
+						width: 138px;
+						}
+
+							#container #content #posts .posts_post .music_player .artwork img {
+							height: 138px;
+							width: 138px;
+							}
+
+						#container #content #posts .posts_post .music_player .audio_info {
+						display: block;
+						position: absolute;
+						right: 10px;
+						top: 0;
+						width: 352px;
+						}
+
+							#container #content #posts .posts_post .music_player .audio_info .info {
+							background: #f0f0f0;
+							display: block;
+							margin: 10px 0 0 0;
+							padding: 5px 8px 5px 8px;
+							}
+
+				/* ____________________________ Question Posts */
+
+				#container #content #posts .posts_post .questions {
+				font-weight: bold;
+				padding: 8px 10px 8px 10px;
+				}
+
+					#container #content #posts .posts_post .questions:first-letter {text-transform: uppercase!important;}
+
+				/* ____________________________ Meta */
+
+				#container #content #posts .posts_post .meta, #container #content #posts .posts_post .meta2 {
+				background: #f8f8f8;
+				color: #555;
+				display: block;
+				font: normal 11px Arial, sans-serif;
+				padding: 5px 8px 7px 8px;
+				}
+
+				#container #content #posts .posts_post .meta {margin: 14px 0 0 0;}
+				#container #content #posts .posts_post .meta2 {margin: 11px 0 0 0;}
+					#container #content #posts .posts_post .meta span.tagcomma:last-child, #container #content #posts .posts_post .meta2 span.tagcomma:last-child {display: none;}
+
+				#container #content #posts .posts_post .credit {display: block;}
+					#container #content #posts .posts_post .credit .creditlinks {float: left;}
+
+					#container #content #posts .posts_post .credit a {
+					font: normal 11px Arial, sans-serif;					padding: 5px 7px 5px 7px;
+					}
+
+				#container #content #posts .posts_post .credit .share {
+				float: right;
+				margin-top: -3px;
+				position: relative;
+				width: 161px;
+				}
+
+					#container #content #posts .posts_post .credit .share img {
+					margin: 0;
+					position: absolute;
+					right: 0;
+					}
+
+					#container #content #posts .posts_post .credit .share a {padding: 0;}
+
+					#container #content #posts .posts_post .credit .share iframe.facebook, #container #promo iframe.facebook {padding: 2px 1px 2px 2px!important;}
+					#container .twitter-share-button, #container .plusone, #container .plusonee {padding: 2px!important;}
+	
+					#container .plusone {
+					background: #b3b3b3; 
+					display: inline-block; 
+					margin: 0; 
+					position: absolute;
+					}
+					
+						#container .plusone:hover {background: #999;}
+					
+					#container .posts_post .credit .share .plusone {right: 0;}
+						
+					#container .posts_post .credit .share .twitter-share-buttonn {
+					position: absolute; 
+					right: 54px;
+					}
+						
+					#container #content #posts .posts_post .credit .share iframe {
+					position: absolute; 
+					right: 42px;
+					}
+		
+					#container .twitter-share-button {background: #a4cce5!important;}
+						#container .twitter-share-button:hover {background: #53a3d6!important;}
+					#container #content #posts .posts_post .credit .share iframe, #container #promo iframe {background: #c9d4e7;}
+						#container #content #posts .posts_post .credit .share iframe:hover, #container #promo iframe:hover {background: #9dacce;}
+
+			/* ____________________________ Disqus */
+
+			#container #content #posts .disqus, #container #content #posts .fb-root {
+			background: #fff;
+			margin: 20px 0 0 0;
+			width: 490px;
+			}
+
+			#container #content #posts .disqus {padding: 3px 15px 2px 15px;}
+			#container #content #posts .fb-root {padding: 15px 15px 11px 15px;}					
+				#container #content #posts .disqus em {text-decoration: none!important;}
+				#container #content #posts .disqus #dsq-global-toolbar {margin-bottom: -10px!important;}
+				#container #content #posts .disqus ul.dsq-global-toolbar-left, #container #content #posts .disqus ul.dsq-global-toolbar-right {margin: 0!important;}
+				#container #content #posts .disqus ul#dsq-footer {margin: 0;}
+				#container #content #posts .disqus #dsq-content-stub {margin: 10px 0 11px 0;}
+				#container #content #posts .disqus .dsq-attach-media-container, #container #content #posts .disqus li.dsq-share-on {display: none;}
+				#container #content #posts .disqus ul.dsq-comment-actions {margin: 0!important;}
+				#container #content #posts .disqus ul.dsq-comment-meta li a:hover, #container #content #posts .disqus ul.dsq-comment-actions li a:hover {color: #ccc!important;}
+
+			/* ____________________________ Notes */
+
+			#container #content #posts ol.notes {
+			display: block;
+			list-style: none;
+			margin: 20px 0 0 0;
+			}
+
+				#container #content #posts ol.notes li {
+				background: #fff;
+				margin: 10px 0 0 0;
+				padding: 5px 8px 5px 8px;
+				}
+
+					#container #content #posts ol.notes li:first-letter {text-transform: uppercase!important;}
+
+					#container #content #posts ol.notes li blockquote {
+					border-width: 5px;
+					margin: 2px 0 4px 0;
+					padding: 0 0 0 7px;
+					}
+
+						#container #content #posts ol.notes li img.avatar {
+						height: 9px;
+						margin: 0 2px 0 0;
+						width: 9px!important;
+						}
+
+			/* ____________________________ Sidebar */
+
+			#container #content #sidebar {
+			display: none;
+			float: right;
+			width: 325px;
+			}
+
+				/* ____________________________ Sidebar Header */
+
+				#container #content #sidebar .sidebar_post #sidebar_header_image, #container #content #sidebar .sidebar_post #sidebar_video, #container #content #sidebar .sidebar_post #sidebar_videoo {
+				padding: 10px;
+				text-align: center;
+				}
+
+					#container #content #sidebar .sidebar_post #sidebar_header_image img {max-width: 305px;}
+
+					#container #content #sidebar .sidebar_post #sidebar_video object, #container #content #sidebar .sidebar_post #sidebar_video embed, #container #content #sidebar .sidebar_post #sidebar_video iframe, #container #content #sidebar .sidebar_post #sidebar_videoo object, #container #content #sidebar .sidebar_post #sidebar_videoo embed, #container #content #sidebar .sidebar_post #sidebar_videoo iframe	{
+					max-height: 200px;
+					max-width: 305px;
+					}
+
+				#container #content #sidebar .sidebar_post_body {
+				background: #fff;
+				padding: 10px;
+				}
+
+				#container #content #sidebar .two {padding: 8px 10px 8px 10px;}
+					#container #content #sidebar .two img, #container #content #sidebar .two embed, #container #content #sidebar .two object, #container #content #sidebar .two iframe {margin: 2px 0 2px 0!important;}
+
+					#container #content #sidebar .sidebar_post_body img, #container #content #sidebar .sidebar_post_body embed, #container #content #sidebar .sidebar_post_body object, #container #content #sidebar .sidebar_post_body iframe {
+					margin: 4px 0 2px 0;
+					max-width: 305px;
+					}
+
+					#container #content #sidebar .sidebar_post_body embed, #container #content #sidebar .sidebar_post_body object, #container #content #sidebar .sidebar_post_body iframe {max-height: 200px;}
+
+				#container #content #sidebar .sidebar_header, #container #content #sidebar a.sidebar_header {
+				display: block;
+				font: normal 14px â€˜Fira Sans Condensedâ€™, sans-serif;				padding: 8px 10px 7px 10px;
+				text-transform: uppercase;
+				}
+
+				/* ____________________________ Search Box */
+
+				#container #content #sidebar .sidebar_post input {
+				font: normal 11px Arial, sans-serif;
+				margin: 0;
+				}
+
+					#container #content #sidebar .sidebar_post input.search {
+					background: #fff;
+					border: none;
+					padding: 9px;
+					width: 248px;
+					}
+
+					#container #content #sidebar .sidebar_post input.submit {
+					border: none;
+					padding: 8px 7px 8px 7px;
+					}
+
+						#container #content #sidebar .sidebar_post input.submit:hover {cursor: pointer;}
+
+				@media screen and (-webkit-min-device-pixel-ratio:0) {
+				#container #content #sidebar .sidebar_post input.search {width: 250px;}
+				#container #content #sidebar .sidebar_post input.submit {padding: 9px;}
+				}
+
+				/* ____________________________ Twitter and Last Fm */
+
+				#container #content #sidebar #tweet ul, #container #content #sidebar ul#lastfmfeed, #container #content #sidebar ul#likes {list-style: none;}
+
+					#container #content #sidebar #tweet ul li, #container #content #sidebar ul#lastfmfeed li {
+					background: #fff;
+					margin: 10px 0 0 0;
+					padding: 8px 10px 8px 10px;
+					}
+
+						#container #content #sidebar #tweet ul li a {
+						font-weight: bold;
+						text-transform: lowercase;
+						}
+
+							#container #content #sidebar #tweet ul li a.arrow {font-weight: normal!important;}
+
+				/* ____________________________ Flickr */
+
+				#container #content #sidebar .sidebar_post .sidebar_post_body #flickr, #container #content #sidebar .sidebar_post .sidebar_post_body #following {width: 325px;}
+				#container #content #sidebar .sidebar_post .sidebar_post_body #flickr {margin-bottom: -6px;}
+					#container #content #sidebar .sidebar_post .sidebar_post_body #flickr ul#flickrimages {list-style: none;}
+
+						#container #content #sidebar .sidebar_post .sidebar_post_body #flickr ul#flickrimages li {
+						float: left;
+						margin: 0 5px 2px 0;
+						}
+
+							#container #content #sidebar .sidebar_post .sidebar_post_body #flickr ul#flickrimages li img {
+							margin: 0;
+							width: 57px;
+							}
+								
+								#container #content #sidebar .sidebar_post .sidebar_post_body #flickr ul#flickrimages li img:hover, #container #content #sidebar .sidebar_post .sidebar_post_body #following img:hover {opacity: 0.7;}
+
+				/* ____________________________  Likes*/
+
+				#container #content #sidebar ul#likes li {
+				background: #fff;
+				height: 17px;
+				line-height: 30px;
+				margin: 10px 0 0 0;
+				overflow: hidden;
+				padding: 2px 10px 14px 10px;
+				}
+
+					#container #content #sidebar ul#likes li .post_info_top {display: block!important;}
+						#container #content #sidebar ul#likes li .post_info_top a {font-weight: bold;}
+
+				#container #content #sidebar ul#likes li .like_caption, #container #content #sidebar ul#likes li img, #container #content #sidebar ul#likes li p, #container #content #sidebar ul#likes li.like_text_post p, #container #content #sidebar ul#likes li.like_text_post blockquote, #container #content #sidebar ul#likes li.like_text_post strong, #container #content #sidebar ul#likes li.like_text_post em, #container #content #sidebar ul#likes li .like_title, #container #content #sidebar ul#likes li .like_post_body, #container #content #sidebar ul#likes li.like_quote_post .like_quote, #container #content #sidebar ul#likes li.like_link_post .like_link, #container #content #sidebar ul#likes li.like_chat_post .like_chat, #container #content #sidebar ul#likes li.like_audio_post .like_audio, #content #sidebar ul#likes li.like_video_post iframe, #container #content #sidebar ul#likes li.like_note_post .like_note {display: none;}
+				#container #content #sidebar .sidebar_post .sidebar_post_body #following {margin-bottom: -5px;}
+
+					#container #content #sidebar .sidebar_post .sidebar_post_body #following img {
+					margin: 0 5px 5px 0;
+					width: 26px;
+					}
+
+				/* ____________________________ Members */
+
+				#container #content #sidebar .group_member {
+				background: #fff;
+				margin: 10px 0 0 0;
+				padding: 10px;
+				}
+
+					#container #content #sidebar .group_member .group_member_icon {float: left;}
+						#container #content #sidebar .group_member .group_member_icon img {width: 40px;}
+
+					#container #content #sidebar .group_member .group_member_name {
+					height: 32px;
+					float: left;
+					margin: 3px 0 0 9px;
+					overflow: hidden;
+					width: 254px;
+					}
+
+						#container #content #sidebar .group_member .group_member_name:first-letter {text-transform: uppercase!important;}
+						#container #content #sidebar .group_member .group_member_name a {font-weight: bold;}
+
+/* ____________________________ Projects */
+
+
+.projects {
+    margin-top:-55px;
+    margin-left:0px;
+    width: 325px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+.projects img {
+        width:80px;
+        height:80px;
+        margin:2px 10px 2px 2px;
+        padding:5px;
+        margin-left:3px;
+        border-radius:50px;
+        border: 1px solid #f3f0ef;
+        box-shadow:2px 2px 8px #DDD; }
+
+.projects img:hover {
+        border:1px solid #2c2f3b;
+    }
+
+
+.project {
+    margin-top:0px;
+    font-family: Arial;
+    text-transform: capitalize;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+
+	/* ____________________________ Footer */
+
+	#container ul#footer {
+	display: block;
+	height: 33px;
+	list-style: none;
+	font: normal 14px â€˜Fira Sans Condensedâ€™, sans-serif;
+	font-weight:light;
+	text-transform:uppercase;
+	}
+
+		#container ul#footer li {display: block;}
+			#container ul#footer li.pagination {float: left;}
+			#container ul#footer li.credit {float: right;}
+			ul#footer li.top {visibility: hidden;}
+			
+			#container ul#footer li a, #container ul#footer li span {
+			display: block;
+			padding: 8px 10px 8px 10px;
+			}
+
+/* ____________________________ Extra */
+
+::-webkit-scrollbar {
+height: auto;
+width: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+border-bottom: 1px solid #fff;
+border-top: 1px solid #fff;
+}
+	
+::-webkit-scrollbar-thumb:horizontal {
+border-left: 1px solid #fff;
+border-right: 1px solid #fff;
+}
+	
+::-webkit-scrollbar-track-piece {background: #fff;}
+	
+.clear {clear: both;}
+
+a, #container #content #sidebar .sidebar_post input, img, a img, #container .plusone, #container .twitter-share-button, #container #content #posts .posts_post .credit .share iframe, #container #promo iframe {
+-moz-transition: all 0.2s;
+-o-transition: all 0.2s;
+text-decoration: none;
+transition: all 0.2s;
+-webkit-transition: all 0.2s;
+}
+
+	a:hover {color: #ccc;}
+		
+b, strong {font-weight: bold;}
+i, em {font-style: italic;}
+p {margin: 10px 0 0 0;}
+
+ul img, ol img {max-width: 459px!important;}
+	
+.tip {
+display:none;
+padding: 5px 8px 5px 8px;
+position:absolute;
+}
+
+#fancybox-outer {
+background: #fff;
+height: 100%;
+position: relative;
+width: 100%;
+}
+	
+blockquote {
+border-left: 5px solid #f0f0f0;
+margin-left: 10px;
+margin-top: 9px;
+padding: 0 0 0 13px;
+}
+
+	blockquote img {
+	margin: 0!important;
+	max-width: 462px!important;
+	}
+	
+		blockquote li img {max-width: 431px!important;}
+	
+		blockquote blockquote img {max-width: 434px!important;}
+			blockquote blockquote li img {max-width: 403px!important;}
+			
+			blockquote blockquote blockquote img {max-width: 406px!important;}
+				blockquote blockquote blockquote li img {max-width: 375px!important;}
+				
+				blockquote blockquote blockquote blockquote img {max-width: 378px!important;}
+					blockquote blockquote blockquote blockquote li img {max-width: 347px!important;}
+					
+					blockquote blockquote blockquote blockquote blockquote img {max-width: 350px!important;}
+						blockquote blockquote blockquote blockquote blockquote li img {max-width: 319px!important;}
+						
+						blockquote blockquote blockquote blockquote blockquote blockquote img {max-width: 322px!important;}
+							blockquote blockquote blockquote blockquote blockquote blockquote li img {max-width: 291px!important;}
+							
+							blockquote blockquote blockquote blockquote blockquote blockquote blockquote img {max-width: 294px!important;}
+								blockquote blockquote blockquote blockquote blockquote blockquote blockquote li img {max-width: 263px!important;}
+								
+								blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote img {max-width: 266px!important;}
+									blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote li img {max-width: 235px!important;}
+									
+									blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote img {max-width: 238px!important;}
+										blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote li img {max-width: 207px!important;}
+										
+										blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote img {max-width: 210px!important;}
+											blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote li img {max-width: 179px!important;}
+											
+											blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote img {max-width: 182px!important;}
+												blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote li img {max-width: 151px!important;}
+
+iframe#ask_form {margin: 5px 0 4px 0;}
+
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+#fancybox-loading {
+position: fixed;
+top: 50%;
+left: 50%;
+width: 40px;
+height: 40px;
+margin-top: -20px;
+margin-left: -20px;
+cursor: pointer;
+overflow: hidden;
+z-index: 1104;
+display: none;
+}
+	
+#fancybox-img {
+border: none;
+height: 100%;
+line-height: 0;
+margin: 0;
+outline: none;
+padding: 0;
+vertical-align: top;
+width: 100%;
+}
+	
+#fancybox-loading div {
+position: absolute;
+top: 0;
+left: 0;
+width: 40px;
+height: 480px;
+background-image: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png");
+}
+
+#fancybox-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1100;
+display: none;
+}
+
+#fancybox-tmp {
+padding: 0;
+margin: 0;
+border: 0;
+overflow: auto;
+display: none;
+}
+
+#fancybox-wrap {
+position: absolute;
+top: 0;
+left: 0;
+padding: 20px;
+z-index: 1101;
+outline: none;
+display: none;
+}
+
+#fancybox-content {
+width: 0;
+height: 0;
+padding: 0;
+outline: none;
+position: relative;
+overflow: hidden;
+z-index: 1102;
+border: 0px solid #fff;
+}
+
+#fancybox-hide-sel-frame {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: transparent;
+z-index: 1101;
+}
+
+#fancybox-close {
+position: absolute;
+top: -15px;
+right: -15px;
+width: 30px;
+height: 30px;
+background: transparent url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png") -40px 0px;
+cursor: pointer;
+z-index: 1103;
+display: none;
+}
+
+#fancybox-error {
+color: #444;
+font: normal 12px/20px â€˜Fira Sans Condensedâ€™, sans-serif;
+padding: 14px;
+margin: 0;
+}
+
+#fancybox-frame {
+width: 100%;
+height: 100%;
+border: none;
+display: block;
+}
+
+#fancybox-left, #fancybox-right {
+position: absolute;
+bottom: 0px;
+height: 100%;
+width: 35%;
+cursor: pointer;
+outline: none;
+background: transparent url("http://static.tumblr.com/3driglx/jnAlqgbjd/blank.gif");
+z-index: 1102;
+display: none;
+}
+
+#fancybox-left {left: 0px;}
+#fancybox-right {right: 0px;}
+
+#fancybox-left-ico, #fancybox-right-ico {
+position: absolute;
+top: 50%;
+left: -9999px;
+width: 30px;
+height: 30px;
+margin-top: -15px;
+cursor: pointer;
+z-index: 1102;
+display: block;
+}
+
+#fancybox-left-ico {
+background-image: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png");
+background-position: -40px -30px;
+}
+
+#fancybox-right-ico {
+background-image: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png");
+background-position: -40px -60px;
+}
+
+#fancybox-left:hover, #fancybox-right:hover {visibility: visible;}
+#fancybox-left:hover span {left: 20px;}
+
+#fancybox-right:hover span {
+left: auto;
+right: 20px;
+}
+
+.fancybox-bg {
+position: absolute;
+padding: 0;
+margin: 0;
+border: 0;
+width: 20px;
+height: 20px;
+z-index: 1001;
+}
+
+#fancybox-bg-n {
+top: -20px;
+left: 0;
+width: 100%;
+background-image: url("http://static.tumblr.com/3driglx/Ct1lqgblt/fancybox-x.png");
+}
+
+#fancybox-bg-ne {
+top: -20px;
+right: -20px;
+background-image: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png");
+background-position: -40px -162px;
+}
+
+#fancybox-bg-e {
+top: 0;
+right: -20px;
+height: 100%;
+background-image: url("http://static.tumblr.com/3driglx/8Fflqgbmk/fancybox-y.png");
+background-position: -20px 0px;
+}
+
+#fancybox-bg-se {
+bottom: -20px;
+right: -20px;
+background-image: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png");
+background-position: -40px -182px; 
+}
+
+#fancybox-bg-s {
+bottom: -20px;
+left: 0;
+width: 100%;
+background-image: url("http://static.tumblr.com/3driglx/Ct1lqgblt/fancybox-x.png");
+background-position: 0px -20px;
+}
+
+#fancybox-bg-sw {
+bottom: -20px;
+left: -20px;
+background-image: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png");
+background-position: -40px -142px;
+}
+
+#fancybox-bg-w {
+top: 0;
+left: -20px;
+height: 100%;
+background-image: url("http://static.tumblr.com/3driglx/8Fflqgbmk/fancybox-y.png");
+}
+
+#fancybox-bg-nw {
+top: -20px;
+left: -20px;
+background-image: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png");
+background-position: -40px -122px;
+}
+
+#fancybox-title {
+font-family: â€˜Fira Sans Condensedâ€™, sans-serif;
+font-size: 12px;
+z-index: 1102;
+}
+
+.fancybox-title-inside {
+padding-bottom: 10px;
+text-align: center;
+color: #333;
+background: #fff;
+position: relative;
+}
+
+.fancybox-title-outside {
+padding-top: 10px;
+color: #fff;
+}
+
+.fancybox-title-over {
+position: absolute;
+bottom: 0;
+left: 0;
+color: #FFF;
+text-align: left;
+}
+
+#fancybox-title-over {
+padding: 10px;
+background-image: url("http://static.tumblr.com/3driglx/zWslqgbnc/fancy_title_over.png");
+display: block;
+}
+
+.fancybox-title-float {
+position: absolute;
+left: 0;
+bottom: -20px;
+height: 32px;
+}
+
+#fancybox-title-float-wrap {
+border: none;
+border-collapse: collapse;
+width: auto;
+}
+
+#fancybox-title-float-wrap td {
+border: none;
+white-space: nowrap;
+}
+
+#fancybox-title-float-left {
+padding: 0 0 0 15px;
+background: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png") -40px -90px no-repeat;
+}
+
+#fancybox-title-float-main {
+color: #FFF;
+line-height: 29px;
+font-weight: bold;
+padding: 0 0 3px 0;
+background: url("http://static.tumblr.com/3driglx/Ct1lqgblt/fancybox-x.png") 0px -40px;
+}
+
+#fancybox-title-float-right {
+padding: 0 0 0 15px;
+background: url("http://static.tumblr.com/3driglx/Sg6lqgbis/fancybox.png") -55px -90px no-repeat;
+}
+
+/* IE6 */
+
+.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/bSylqgbp8/fancy_close.png", sizingMethod='scale');}
+.fancybox-ie6 #fancybox-left-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/oLZlqgbpk/fancy_nav_left.png", sizingMethod='scale');}
+.fancybox-ie6 #fancybox-right-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/JDWlqgbpu/fancy_nav_right.png", sizingMethod='scale');}
+.fancybox-ie6 #fancybox-title-over { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/zWslqgbnc/fancy_title_over.png", sizingMethod='scale'); zoom: 1;}
+.fancybox-ie6 #fancybox-title-float-left { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/fTWlqgbr1/fancy_title_left.png", sizingMethod='scale');}
+.fancybox-ie6 #fancybox-title-float-main { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/AKClqgbre/fancy_title_main.png", sizingMethod='scale');}
+.fancybox-ie6 #fancybox-title-float-right { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/gLplqgbro/fancy_title_right.png", sizingMethod='scale');}
+.fancybox-ie6 #fancybox-bg-w, .fancybox-ie6 #fancybox-bg-e, .fancybox-ie6 #fancybox-left, .fancybox-ie6 #fancybox-right, #fancybox-hide-sel-frame {height: expression(this.parentNode.clientHeight + "px");}
+#fancybox-loading.fancybox-ie6 {position: absolute; margin-top: 0; top: expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop )) + 'px');}
+#fancybox-loading.fancybox-ie6 div	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/a4Xlqgbs2/fancy_loading.png", sizingMethod='scale');}
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/hgYlqgbtd/fancy_shadow_n.png", sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/Y8Ylqgbtt/fancy_shadow_ne.png", sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/yZqlqgbuc/fancy_shadow_e.png", sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/rbrlqgbum/fancy_shadow_se.png", sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/qbxlqgbuy/fancy_shadow_s.png", sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/fgHlqgbvc/fancy_shadow_sw.png", sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/onClqgby5/fancy_shadow_w.png", sizingMethod='scale');}
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://static.tumblr.com/3driglx/9IOlqgbym/fancy_shadow_nw.png", sizingMethod='scale');}
